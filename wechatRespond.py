@@ -49,8 +49,8 @@ while (1) :
     res = get_response(msg)
 
     if "天气" in msg:
-        today_msg=get_weather_info(101010100)
-        print("天气："+today_msg)
+        today_msg=get_weather_info(101020100)
+        print("上海"+today_msg)
     else:
         print(res)
 
